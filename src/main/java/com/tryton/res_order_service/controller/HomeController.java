@@ -1,6 +1,6 @@
-package com.tryton.template.controller;
+package com.tryton.res_order_service.controller;
 
-import com.tryton.template.service.TestService;
+import com.tryton.res_order_service.service.TestService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.AllArgsConstructor;

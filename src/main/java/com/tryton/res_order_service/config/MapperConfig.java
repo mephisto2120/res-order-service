@@ -1,4 +1,4 @@
-package com.tryton.template.config;
+package com.tryton.res_order_service.config;
 
 import lombok.RequiredArgsConstructor;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
 import javax.sql.DataSource;
 
 @Configuration
-@MapperScan("com.tryton.template.mapper")
+@MapperScan("com.tryton.res_order_service.mapper")
 @EnableAutoConfiguration(exclude = { DataSourceAutoConfiguration.class })
 @RequiredArgsConstructor
 class MapperConfig {
