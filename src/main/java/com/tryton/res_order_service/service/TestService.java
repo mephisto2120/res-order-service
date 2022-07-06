@@ -1,7 +1,7 @@
-package com.tryton.template.service;
+package com.tryton.res_order_service.service;
 
-import com.tryton.template.mapper.TestMapper;
-import com.tryton.template.mapper.XmlTestMapper;
+import com.tryton.res_order_service.mapper.TestMapper;
+import com.tryton.res_order_service.mapper.XmlTestMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

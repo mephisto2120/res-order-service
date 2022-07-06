@@ -1,4 +1,4 @@
-package com.tryton.template.config;
+package com.tryton.res_order_service.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Contact;

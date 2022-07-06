@@ -4,9 +4,9 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.tryton</groupId>
-	<artifactId>service-template</artifactId>
+	<artifactId>res-order-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>service-template</name>
+	<name>res-order-service</name>
 
 	<description>REST service template</description>
 
@@ -270,7 +270,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<version>${spring.boot.version}</version>
 				<configuration>
-					<mainClass>com.tryton.template.Launcher</mainClass>
+					<mainClass>com.tryton.res_order_service.Launcher</mainClass>
 					<layout>JAR</layout>
 				</configuration>
 				<executions>
