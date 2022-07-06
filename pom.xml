@@ -20,7 +20,6 @@
 		<mockito.version>4.0.0</mockito.version>
 		<lombok.version>1.18.12</lombok.version>
 		<micrometer.version>1.8.2</micrometer.version>
-		<ident.version>8.130.0</ident.version>
 		<mybatis.spring.version>2.0.6</mybatis.spring.version>
 		<jakarta.xml.bind.version>2.3.3</jakarta.xml.bind.version>
 		<rest.assured.version>4.2.0</rest.assured.version>
