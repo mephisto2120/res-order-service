@@ -47,7 +47,7 @@ class HomeControllerIntegrationTest {
         when().get(URI + "/home/db-xml")
                 .then()
                 .statusCode(OK.value())
-                .body(equalTo("123"));
+                .body(equalTo("1"));
     }
 
     @Test

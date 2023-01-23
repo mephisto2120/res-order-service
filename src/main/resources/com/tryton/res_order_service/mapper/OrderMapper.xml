@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tryton.res_order_service.mapper.OrderMapper">
+
+    <insert id="create" useGeneratedKeys="true" keyProperty="id">
+        insert into orders ( order_id, delivery_information_id, payment_information_id)
+        values (#{deliveryInformation.id},#{paymentInformation.id})
+    </insert>
+
+    <update id="update">
+        update orders set
+                          username = #{username},
+                          password = #{password},
+                          email = #{email},
+                          bio = #{bio}
+        where id = #{id}
+    </update>
+</mapper>

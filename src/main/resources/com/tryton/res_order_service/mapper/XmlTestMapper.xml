@@ -3,8 +3,6 @@
 <mapper namespace="com.tryton.res_order_service.mapper.XmlTestMapper">
 
     <select id="testCall" resultType="int">
-        select 123
-        from `auth`.role
-        limit 1
+        select 1 from res_order_db.consumer limit 1
     </select>
 </mapper>

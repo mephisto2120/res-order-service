@@ -1,9 +1,10 @@
 package com.tryton.res_order_service.mapper;
 
 import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.Insert;
 
 public interface TestMapper {
 
-    @Select("select 1 from `auth`.role limit 1")
+    @Insert("INSERT INTO res_order_db.consumer (name) VALUES ('test')")
     int testCall();
 }
