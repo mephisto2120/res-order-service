@@ -16,7 +16,7 @@ after_success:
 #  provider: elasticbeanstalk
 #  region: us-east-2  #TO BE CHANGED
 #  app: res-order-service
-#  env: Servicetemplate-env
+#  env: ResOrderService-env
 #  bucket_name: elasticbeanstalk-us-east-2-700196549790 #TO BE CHANGED
 #  bucket_path: res-order-service-docker
 #  on:
